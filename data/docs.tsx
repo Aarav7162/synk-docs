@@ -43,12 +43,12 @@ export const DOCS_SECTIONS: DocSection[] = [
               A web-based learning platform for interactive lessons, simulations, and gamified progress tracking.
             </p>
             <a 
-              href="https://synk-academy.netlify.app" 
+              href="https://synk-hub.netlify.app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-semibold text-synk-600 dark:text-synk-400 hover:underline"
             >
-              synk-academy.netlify.app →
+              synk-hub.netlify.app →
             </a>
           </div>
           <div className="p-6 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-synk-300 dark:hover:border-synk-700 transition-colors flex flex-col h-full">
@@ -86,7 +86,7 @@ export const DOCS_SECTIONS: DocSection[] = [
           </p>
 
           <ol className="list-decimal list-inside space-y-4 mt-6 text-slate-700 dark:text-slate-300">
-            <li className="pl-2"><span className="font-semibold">Access the Portal:</span> Open <a href="https://synk-academy.netlify.app" target="_blank" rel="noopener noreferrer" className="text-synk-600 dark:text-synk-400 hover:underline">Synk Academy</a>.</li>
+            <li className="pl-2"><span className="font-semibold">Access the Portal:</span> Open <a href="https://synk-hub.netlify.app" target="_blank" rel="noopener noreferrer" className="text-synk-600 dark:text-synk-400 hover:underline">Synk Academy</a>.</li>
             <li className="pl-2"><span className="font-semibold">Authentication:</span> Create an account or sign in with your provider.</li>
             <li className="pl-2"><span className="font-semibold">The Calibration Wizard:</span> This is the most critical step.</li>
           </ol>
