@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface TranslationItem {
   id: string;
   synk: string;
@@ -11,7 +13,9 @@ export interface Category {
   items: TranslationItem[];
 }
 
-export interface ThemeContextType {
-  theme: 'light' | 'dark';
-  toggleTheme: () => void;
+export interface DocSection {
+  id: string;
+  title: string;
+  category: 'Guide' | 'Academy' | 'IDE' | 'Reference';
+  content: React.ReactNode;
 }
